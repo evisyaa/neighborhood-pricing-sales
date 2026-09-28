@@ -1,0 +1,27 @@
+{
+  "name": "neighborhood-pricing-sales",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "seed:kranji": "node --env-file=.env.local scripts/seed-kranji.mjs"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "latest",
+    "leaflet": "latest",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-leaflet": "latest"
+  },
+  "devDependencies": {
+    "@types/leaflet": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "typescript": "latest"
+  }
+}
